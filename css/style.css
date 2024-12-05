@@ -1,5 +1,102 @@
+:root{
+    --green: rgb(26, 204, 141);
+    --white: #ffffff;
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+/* navbar */
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Hero Section */
+
+.top-section{
+    height: 100vh;
+}
+.bg{
+    background-image: url("../images/hero-bg-2.jpg");
+    background-color: #1b1464;
+    /* opacity: 50%; */
+}
+
+/* banner */
+.banner{
+    color: white;
+}
+.banner h2{
+    font-size: 36px;
+    font-weight: 600;
+    /* line-height: 70px; */
+}
+
+.banner p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* about section */
+
+.about-us{
+    height: 100vh;
+}
+
+.side-box{
+    background-color: rgb(236, 236, 236);
+    width: 90px;
+    color: var(--green);
+}
+
+.about-us h4{
+    color: #1b1464;
+    font-weight: 500;
+}
+
+.about-us .about-us-txt p{
+    color: gray;
+}
+
+.about-us-btn{
+    background-color: var(--green);
+    border: none;
+}
+
+
+.card-icon{
+    background-color: rgb(236, 236, 236);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+}
+
+.about-us .card h5 {
+    color: #1b1464;
+}
+
+.about-us .card p {
+    color: gray;
+}
+
+
+/* short card section */
+.short-card-section{
+    height: 50vh;
+}
+
+.short-card-section .card-title{
+    color: #1b1464;
 }
